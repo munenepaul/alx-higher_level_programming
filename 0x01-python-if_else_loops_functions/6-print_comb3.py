@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(10):
-    for j in range(i+1, 10):
-        print("{:02d}, {:02d}".format(i, j), end=", ")
-        print("\b\b\n", end="")
+for number in range(90):
+    if number % 10 == 0:
+        number += 10
+        print("{:02d}".format(number), end='\n' if number == 89 else ", ")
