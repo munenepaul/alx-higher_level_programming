@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def to_uper(character):
     for c in str:
         if ord('a') <= ord(c) <= ord('z'):
