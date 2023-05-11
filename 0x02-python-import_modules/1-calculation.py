@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    from my_calculator import addition, subtraction, multiplication, division
+    from calculator_1 import addition, subtraction, multiplication, division
     x = 10
     y = 5
     print("{} + {} = {}".format(x, y, addition(x, y)))
