@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def multiply_by_2(another_dictionary):
+def multiply_by_2(a_dictionary):
     """Returns a new dictionary with all values multiplied by 2"""
-    multiplied_dict = key: (another_dictionary[key] * 2)
-    for key in another_dictionary
-    return multiplied_dict
+    """all values multiplied by 2"""
+    new_dict = {x: (a_dictionary[x] * 2) for x in a_dictionary}
+    return new_dict
