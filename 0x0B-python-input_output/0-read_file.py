@@ -4,8 +4,7 @@ Contains the read_file function
 """
 
 
-def write_file(filename="", text=""):
-     """""reads a text file(UTF8) and prints it to stdout"""
-     with open(filename, "w", encoding="utf-8") as file:
-         file.write(text)
-         return len(text)
+def read_file(filename=""):
+    """""reads a text file(UTF8) and prints it to stdout"""
+    with open(filename, "r", encoding="utf-8") as f:
+        print(f.read(), end="")
